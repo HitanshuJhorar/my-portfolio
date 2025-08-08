@@ -173,6 +173,7 @@ header {
   width: 90%;
   max-width: 1500px;
   color: var(--text-colo);
+  min-height: 500px;
 }
 
 /* Hero */
@@ -259,6 +260,7 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .skill-card:hover {
@@ -383,10 +385,7 @@ header {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 25px var(--primary-6);
-}
+
 
 .contact-info p {
   font-size: 1.2rem;
@@ -518,7 +517,8 @@ header {
   }
 
   .skills-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr);    /* 2 rows */
     gap: 20px;
   }
 
