@@ -14,7 +14,7 @@
 
   --card-bg2: rgb(183, 207, 218);
   --background-bg: linear-gradient(
-    to bottom,
+    to left,
     var(--primary-1),
     var(--primary-2),
     var(--primary-3),
