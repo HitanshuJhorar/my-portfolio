@@ -529,8 +529,8 @@ header {
   -webkit-overflow-scrolling: touch;
   gap: 1rem;
   padding-bottom: 1rem;
-}
-
+ } 
+ 
 .project-card {
   flex: 0 0 90%;
   scroll-snap-align: start;
